@@ -1,9 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Sound Detector</title>
-    <style>
-        body {
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+      <style>
+      body {
     background-color: #f0f0f0;
     display: flex;
     justify-content: center;
@@ -22,13 +25,12 @@ button {
 canvas {
     border: 1px solid #000;
 }
+</style>
 
-    </style>
-</head>
-<body>
+  </head>
+  <body>
     <button id="startButton">Start</button>
     <canvas id="canvas"></canvas>
-
     <script>
         window.onload = function() {
     const AudioContext = window.AudioContext || window.webkitAudioContext;
@@ -66,5 +68,5 @@ canvas {
 };
 
     </script>
-</body>
+  </body>
 </html>
